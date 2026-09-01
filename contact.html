@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Request a Fast Quote — SB CAD Studio</title>
+<meta name="description" content="Scope your CAD shop drawing or 3D CGI project in five steps — region and standard, service, project scale, file upload and contact details.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<div class="reg-mark tl" aria-hidden="true"><svg viewBox="0 0 22 22"><path d="M1 1H10 M1 1V10" stroke="#C5A880" stroke-width="1.2" fill="none"/></svg></div>
+<div class="reg-mark br" aria-hidden="true"><svg viewBox="0 0 22 22"><path d="M1 1H10 M1 1V10" stroke="#C5A880" stroke-width="1.2" fill="none"/></svg></div>
+<div class="sheet-tag" data-sheet-tag></div>
+
+<!-- header.php:start -->
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="index.html" class="brand">
+      <span class="mark">SB</span>
+      <span class="name-full">SB CAD Studio<span class="name-sub">Drafting &amp; CGI Production</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cad-services.html">CAD Drafting</a></li>
+        <li><a href="3d-rendering.html">3D CGI</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">Studio &amp; Workflow</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="mailto:info@sbcadstudio.com" class="btn btn-ghost btn-sm">Email us directly</a>
+      </div>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+<!-- header.php:end -->
+
+<main>
+
+  <section class="hero section-tight">
+    <div class="wrap">
+      <div class="hero-eyebrow"><span class="dot"></span> Five steps · under four minutes</div>
+      <h1 style="max-width:22ch;">Scope your project and get a fast, accurate quote.</h1>
+      <p class="sub">Tell us the region, service and scale — attach plans or a moodboard if you have them — and a project coordinator will follow up within one business day.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap" style="max-width:900px;">
+
+      <div data-wizard>
+        <div class="stepper">
+          <div class="step"><div class="bar"></div><div class="label">01 — Region</div></div>
+          <div class="step"><div class="bar"></div><div class="label">02 — Service</div></div>
+          <div class="step"><div class="bar"></div><div class="label">03 — Scale &amp; software</div></div>
+          <div class="step"><div class="bar"></div><div class="label">04 — Files &amp; NDA</div></div>
+          <div class="step"><div class="bar"></div><div class="label">05 — Contact</div></div>
+        </div>
+
+        <form>
+
+          <!-- Step 1: Region -->
+          <div data-step>
+            <div class="section-head" style="border:none; margin-bottom:var(--sp-4); padding-bottom:0;">
+              <div><h2 style="font-size:var(--fs-lg);">Which region and standard applies?</h2></div>
+            </div>
+            <div class="option-grid">
+              <div class="option-card" data-option data-group="region" data-value="US / Canada — Imperial, AIA standard">
+                <span class="otag">01</span><h4>US / Canada</h4><p>Imperial units, AIA layering, overnight turnaround.</p>
+              </div>
+              <div class="option-card" data-option data-group="region" data-value="UK / Europe — Metric, ISO/RIBA standard">
+                <span class="otag">02</span><h4>UK / Europe</h4><p>Metric units, ISO/RIBA drafting standard, GDPR handling.</p>
+              </div>
+              <div class="option-card" data-option data-group="region" data-value="UAE / Middle East — Metric, luxury fit-out">
+                <span class="otag">03</span><h4>UAE / Middle East</h4><p>Metric units, luxury joinery and fit-out detailing focus.</p>
+              </div>
+            </div>
+            <div class="form-nav"><span></span><button type="button" class="btn btn-primary" data-next>Continue</button></div>
+          </div>
+
+          <!-- Step 2: Service -->
+          <div data-step hidden>
+            <div class="section-head" style="border:none; margin-bottom:var(--sp-4); padding-bottom:0;">
+              <div><h2 style="font-size:var(--fs-lg);">What service do you need?</h2></div>
+            </div>
+            <div class="option-grid">
+              <div class="option-card" data-option data-group="service" data-value="CAD shop drawings">
+                <span class="otag">01</span><h4>CAD shop drawings</h4><p>Architectural, MEP and coordination sets.</p>
+              </div>
+              <div class="option-card" data-option data-group="service" data-value="Joinery / millwork detailing">
+                <span class="otag">02</span><h4>Joinery detailing</h4><p>Cabinetry, paneling and custom millwork.</p>
+              </div>
+              <div class="option-card" data-option data-group="service" data-value="3D CGI rendering">
+                <span class="otag">03</span><h4>3D CGI rendering</h4><p>Photorealistic stills and VR walkthroughs.</p>
+              </div>
+              <div class="option-card" data-option data-group="service" data-value="Full package — drafting + CGI">
+                <span class="otag">04</span><h4>Full package</h4><p>Drafting and CGI run together on one timeline.</p>
+              </div>
+            </div>
+            <div class="form-nav"><button type="button" class="btn btn-ghost" data-prev>Back</button><button type="button" class="btn btn-primary" data-next>Continue</button></div>
+          </div>
+
+          <!-- Step 3: Scale & software -->
+          <div data-step hidden>
+            <div class="section-head" style="border:none; margin-bottom:var(--sp-4); padding-bottom:0;">
+              <div><h2 style="font-size:var(--fs-lg);">Project scale and preferred software?</h2></div>
+            </div>
+            <p style="font-size:var(--fs-xs); color:var(--text-200); margin-bottom:var(--sp-2);">Project scale</p>
+            <div class="option-grid" style="margin-bottom:var(--sp-5);">
+              <div class="option-card" data-option data-group="scale" data-value="Single room / unit">
+                <span class="otag">S</span><h4>Single room / unit</h4><p>A single space or short elevation set.</p>
+              </div>
+              <div class="option-card" data-option data-group="scale" data-value="Full property / multi-room">
+                <span class="otag">M</span><h4>Full property</h4><p>Multi-room residence or full-floor fit-out.</p>
+              </div>
+              <div class="option-card" data-option data-group="scale" data-value="Multi-site / portfolio">
+                <span class="otag">L</span><h4>Multi-site</h4><p>Several locations on a shared timeline.</p>
+              </div>
+            </div>
+            <p style="font-size:var(--fs-xs); color:var(--text-200); margin-bottom:var(--sp-2);">Preferred software</p>
+            <div class="option-grid">
+              <div class="option-card" data-option data-group="software" data-value=".dwg (AutoCAD)"><span class="otag">.dwg</span><h4>AutoCAD</h4></div>
+              <div class="option-card" data-option data-group="software" data-value=".max / .skp (3D)"><span class="otag">.max / .skp</span><h4>3ds Max / SketchUp</h4></div>
+              <div class="option-card" data-option data-group="software" data-value=".rvt (Revit) / PDF"><span class="otag">.rvt / PDF</span><h4>Revit / PDF</h4></div>
+            </div>
+            <div class="form-nav"><button type="button" class="btn btn-ghost" data-prev>Back</button><button type="button" class="btn btn-primary" data-next>Continue</button></div>
+          </div>
+
+          <!-- Step 4: Files & NDA -->
+          <div data-step hidden>
+            <div class="section-head" style="border:none; margin-bottom:var(--sp-4); padding-bottom:0;">
+              <div><h2 style="font-size:var(--fs-lg);">Attach plans, moodboards or markups.</h2></div>
+              <p>Optional — you can also email files separately to projects@sbcadstudio.com.</p>
+            </div>
+            <div class="dropzone">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" style="margin-inline:auto;"><path d="M12 16V4M12 4l-4 4M12 4l4 4M4 16v3a1 1 0 001 1h14a1 1 0 001-1v-3"/></svg>
+              <p>Click or drag files here — architectural plans, moodboards, PDF markups.</p>
+              <input type="file" id="file-input" multiple hidden>
+            </div>
+            <ul class="file-list"></ul>
+            <div class="field" style="margin-top:var(--sp-4);">
+              <label class="check-row"><input type="checkbox"> Request a signed NDA before we review the attached files</label>
+            </div>
+            <div class="form-nav"><button type="button" class="btn btn-ghost" data-prev>Back</button><button type="button" class="btn btn-primary" data-next>Continue</button></div>
+          </div>
+
+          <!-- Step 5: Contact -->
+          <div data-step hidden>
+            <div class="section-head" style="border:none; margin-bottom:var(--sp-4); padding-bottom:0;">
+              <div><h2 style="font-size:var(--fs-lg);">Where should we send the quote?</h2></div>
+            </div>
+            <div class="field-row">
+              <div class="field"><label for="c-name">Full name</label><input type="text" id="c-name" required></div>
+              <div class="field"><label for="c-company">Company</label><input type="text" id="c-company"></div>
+            </div>
+            <div class="field-row">
+              <div class="field"><label for="c-email">Business email</label><input type="email" id="c-email" placeholder="you@company.com" required></div>
+              <div class="field">
+                <label for="c-tz">Your timezone</label>
+                <select id="c-tz">
+                  <option>Eastern Time (EST/EDT)</option>
+                  <option>Greenwich Mean Time (GMT/BST)</option>
+                  <option>Gulf Standard Time (GST)</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="field"><label for="c-notes">Anything else we should know?</label><textarea id="c-notes" rows="3"></textarea></div>
+
+            <div class="dim-divider" style="margin-block:var(--sp-4);"><span class="tick"></span><span class="line"></span><span class="label">QUOTE SUMMARY</span><span class="line"></span><span class="tick"></span></div>
+            <div class="summary-card" data-summary></div>
+
+            <div class="form-nav"><button type="button" class="btn btn-ghost" data-prev>Back</button><button type="submit" class="btn btn-primary">Submit request</button></div>
+          </div>
+
+        </form>
+
+        <div data-confirmation hidden style="text-align:center; padding-block:var(--sp-7);">
+          <div style="width:56px;height:56px;border:1.5px solid var(--bronze);border-radius:50%;display:grid;place-items:center;margin:0 auto var(--sp-4);">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C5A880" stroke-width="2"><path d="M4 12l5 5L20 6"/></svg>
+          </div>
+          <h2 style="font-size:var(--fs-lg);">Request received.</h2>
+          <p style="color:var(--text-200); margin-top:var(--sp-2); max-width:44ch; margin-inline:auto;">A project coordinator will review your scope and reply from projects@sbcadstudio.com within one business day, matched to the timezone you selected.</p>
+          <a href="index.html" class="btn btn-ghost" style="margin-top:var(--sp-5);">Back to home</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section on-panel">
+    <div class="wrap" style="max-width:900px;">
+      <div class="section-head">
+        <div><span class="idx">DIRECT CONTACT</span><h2>Prefer email?</h2></div>
+      </div>
+      <div class="card-grid cols-2">
+        <div class="service-card"><span class="num">@</span><h3>General enquiries</h3><p><a href="mailto:info@sbcadstudio.com" style="color:var(--bronze);">info@sbcadstudio.com</a></p></div>
+        <div class="service-card"><span class="num">@</span><h3>Active projects &amp; file transfer</h3><p><a href="mailto:projects@sbcadstudio.com" style="color:var(--bronze);">projects@sbcadstudio.com</a></p></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- footer.php:start -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-about">
+      <span class="mark" style="display:inline-flex;width:30px;height:30px;border:1.5px solid var(--bronze);border-radius:2px;align-items:center;justify-content:center;color:var(--bronze);font-family:var(--font-mono);font-size:0.7rem;">SB</span>
+      <p>Global technical drafting and 3D CGI production, delivering to architects, contractors and fit-out studios since 2023.</p>
+    </div>
+    <div>
+      <h5>Services</h5>
+      <ul>
+        <li><a href="cad-services.html">CAD shop drawings</a></li>
+        <li><a href="cad-services.html">Millwork detailing</a></li>
+        <li><a href="3d-rendering.html">3D CGI rendering</a></li>
+        <li><a href="3d-rendering.html">VR walkthroughs</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Studio</h5>
+      <ul>
+        <li><a href="about.html">About &amp; workflow</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Get a quote</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Contact</h5>
+      <ul>
+        <li><a href="mailto:info@sbcadstudio.com">info@sbcadstudio.com</a></li>
+        <li><a href="mailto:projects@sbcadstudio.com">projects@sbcadstudio.com</a></li>
+        <li>Remote-first — serving EST, GMT &amp; GST business hours</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 SB CAD Studio. sbcadstudio.com</span>
+    <span>GDPR-aligned data handling · NDA on request</span>
+  </div>
+</footer>
+<!-- footer.php:end -->
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
