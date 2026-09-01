@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3D Architectural Visualization &amp; CGI — SB CAD Studio</title>
+<meta name="description" content="Photorealistic 3ds Max, V-Ray and Corona CGI for residential, commercial and luxury hospitality projects — 4K to 8K delivery with 360° WebGL walkthroughs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/tokens.css">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+<div class="reg-mark tl" aria-hidden="true"><svg viewBox="0 0 22 22"><path d="M1 1H10 M1 1V10" stroke="#C5A880" stroke-width="1.2" fill="none"/></svg></div>
+<div class="reg-mark br" aria-hidden="true"><svg viewBox="0 0 22 22"><path d="M1 1H10 M1 1V10" stroke="#C5A880" stroke-width="1.2" fill="none"/></svg></div>
+<div class="sheet-tag" data-sheet-tag></div>
+
+<!-- header.php:start -->
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="index.html" class="brand">
+      <span class="mark">SB</span>
+      <span class="name-full">SB CAD Studio<span class="name-sub">Drafting &amp; CGI Production</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cad-services.html">CAD Drafting</a></li>
+        <li><a href="3d-rendering.html" aria-current="page">3D CGI</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">Studio &amp; Workflow</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-ghost btn-sm">Request NDA</a>
+        <a href="contact.html" class="btn btn-primary btn-sm">Request a Fast Quote</a>
+      </div>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+<div class="subnav">
+  <div class="wrap">
+    <span class="crumb">Services /</span>
+    <a href="#specializations" class="is-active">Specializations</a>
+    <a href="#mood">Light &amp; material preview</a>
+    <a href="#delivery">Delivery formats</a>
+  </div>
+</div>
+<!-- header.php:end -->
+
+<main>
+
+  <section class="hero section-tight">
+    <div class="wrap">
+      <div class="hero-eyebrow"><span class="dot"></span> 3ds Max · V-Ray · Corona · SketchUp</div>
+      <h1 style="max-width:22ch;">Photorealistic CGI, tuned to the mood each market expects.</h1>
+      <p class="sub">From warm minimalist European interiors to opulent marble-and-brass Gulf hospitality, our CGI artists render to the finish language of the region.</p>
+    </div>
+  </section>
+
+  <section class="section" id="specializations">
+    <div class="wrap">
+      <div class="section-head">
+        <div><span class="idx">01 — SPECIALIZATIONS</span><h2>Four project types, one consistent render pipeline.</h2></div>
+      </div>
+      <div class="card-grid">
+        <div class="service-card"><span class="num">R1</span><h3>High-end residential</h3><p>Villas, apartments and penthouses rendered for sales and marketing collateral.</p></div>
+        <div class="service-card"><span class="num">R2</span><h3>Commercial offices</h3><p>Workplace interiors and lobby CGI for leasing and pitch decks.</p></div>
+        <div class="service-card"><span class="num">R3</span><h3>Retail boutiques</h3><p>Storefront and interior fit-out visuals for brand rollouts.</p></div>
+        <div class="service-card"><span class="num">R4</span><h3>Luxury hospitality</h3><p>Hotels and restaurants across Dubai and Europe, from lobby to guestroom.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section on-panel" id="mood">
+    <div class="wrap">
+      <div class="section-head">
+        <div><span class="idx">02 — LIGHT &amp; MATERIAL PREVIEW</span><h2>The same room, two regional finish languages.</h2></div>
+        <p>A quick illustration of how lighting temperature and material palette shift between a European minimalist brief and a GCC opulent brief.</p>
+      </div>
+      <div class="mood-switcher">
+        <div class="mood-tabs">
+          <button class="is-active" data-target="mood-warm">Warm minimalist — European style</button>
+          <button data-target="mood-opulent">Opulent marble &amp; brass — UAE style</button>
+        </div>
+        <div class="mood-panel">
+          <div class="mood-scene is-active" id="mood-warm"><span class="cap">Oak, linen and matte plaster — soft daylight, 4500K</span></div>
+          <div class="mood-scene" id="mood-opulent"><span class="cap">Bookmatched marble, brushed brass and smoked glass — warm accent lighting, 3000K</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="delivery">
+    <div class="wrap">
+      <div class="section-head">
+        <div><span class="idx">03 — DELIVERY FORMATS</span><h2>Output matched to how the render will actually be used.</h2></div>
+      </div>
+      <div class="card-grid cols-3">
+        <div class="service-card"><span class="num">D1</span><h3>4K &amp; 8K ultra-HD stills</h3><p>Full-resolution renders for digital marketing and large-format display.</p></div>
+        <div class="service-card"><span class="num">D2</span><h3>Print-ready 300 DPI</h3><p>Press-ready files for brochures, hoarding graphics and presentation boards.</p></div>
+        <div class="service-card"><span class="num">D3</span><h3>360° WebGL / VR links</h3><p>Shareable interactive walkthroughs, no plug-in required on the client side.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band wrap">
+    <h2>Send a plan or moodboard — we'll propose a mood direction within one business day.</h2>
+    <div class="cta-band-actions">
+      <a href="contact.html" class="btn btn-primary">Request a Fast Quote</a>
+      <a href="portfolio.html" class="btn btn-ghost">See rendered projects</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- footer.php:start -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-about">
+      <span class="mark" style="display:inline-flex;width:30px;height:30px;border:1.5px solid var(--bronze);border-radius:2px;align-items:center;justify-content:center;color:var(--bronze);font-family:var(--font-mono);font-size:0.7rem;">SB</span>
+      <p>Global technical drafting and 3D CGI production, delivering to architects, contractors and fit-out studios since 2023.</p>
+    </div>
+    <div>
+      <h5>Services</h5>
+      <ul>
+        <li><a href="cad-services.html">CAD shop drawings</a></li>
+        <li><a href="cad-services.html">Millwork detailing</a></li>
+        <li><a href="3d-rendering.html#specializations">3D CGI rendering</a></li>
+        <li><a href="3d-rendering.html#delivery">VR walkthroughs</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Studio</h5>
+      <ul>
+        <li><a href="about.html">About &amp; workflow</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Get a quote</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Contact</h5>
+      <ul>
+        <li><a href="mailto:info@sbcadstudio.com">info@sbcadstudio.com</a></li>
+        <li><a href="mailto:projects@sbcadstudio.com">projects@sbcadstudio.com</a></li>
+        <li>Remote-first — serving EST, GMT &amp; GST business hours</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 SB CAD Studio. sbcadstudio.com</span>
+    <span>GDPR-aligned data handling · NDA on request</span>
+  </div>
+</footer>
+<!-- footer.php:end -->
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
